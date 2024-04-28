@@ -1,13 +1,14 @@
 {
   "name": "cse341_node",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlcrow23/CSE341_node.git"
+    "url": "git+https://github.com/jlcrow23/CSE341_node.git"
   },
   "author": "Julie Crowther",
   "license": "ISC",
@@ -15,5 +16,10 @@
     "url": "https://github.com/jlcrow23/CSE341_node/issues"
   },
   "homepage": "https://github.com/jlcrow23/CSE341_node#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0"
+  }
 }
