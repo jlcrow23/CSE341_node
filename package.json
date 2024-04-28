@@ -1,0 +1,19 @@
+{
+  "name": "cse341_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlcrow23/CSE341_node.git"
+  },
+  "author": "Julie Crowther",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlcrow23/CSE341_node/issues"
+  },
+  "homepage": "https://github.com/jlcrow23/CSE341_node#readme",
+  "description": ""
+}
