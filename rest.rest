@@ -1,3 +1,34 @@
-http://localhost:3000/users
+GET http://localhost:3000/users
+
 
 https://cse341-node-project1.onrender.com/users
+
+### GET user by id
+GET http://localhost:3000/users/6338d07ec51624e0408341bd
+
+### Create a user
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Adam",
+    "lastName": "Sandler",
+    "email": "adam@example.com",
+    "favorite_color": "blue",
+    "birthdate": "01/01/1970"
+}
+
+### Update user
+PUT http://localhost.3000/users/650c5812c06bc031e32200a2
+content-type: application/json
+
+{
+    "firstName": "Sarah",
+    "lastName": "Birch",
+    "email": "sbirch@gmail.com",
+    "favorite_color": "Yellow",
+    "birthdate": "12/12/20"
+}
+
+### Delete user
+DELETE http://localhost:3000/users/664be5e0e6fa6684f590b80a
